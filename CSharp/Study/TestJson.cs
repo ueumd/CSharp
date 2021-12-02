@@ -135,7 +135,7 @@ namespace CSharp
             roomList.Add(1, listUser);
             roomList.Add(2, listUser);
 
-
+  
             string jsonData = JsonConvert.SerializeObject(roomList, Formatting.Indented);
 
             Console.WriteLine(jsonData);

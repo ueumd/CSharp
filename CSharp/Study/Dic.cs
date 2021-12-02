@@ -32,7 +32,7 @@ using Common;
 /// </summary>
 namespace CSharp
 {
-    class Dic
+    public class Dic
     {
         static Dictionary<int, Person> dicPerson = new Dictionary<int, Person>();
 
